@@ -5,6 +5,6 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(monochrome = true,  plugin={ "pretty", "html:cucumber-html-report" }, tags= { "@SanityTest" })
+@CucumberOptions( features= {"classpath:skeleton"},glue= {"classpath:skeleton"},plugin={ "pretty","json:C:/Test_Report/cucumber.json"}, tags= { "@SanityTest" })
 public class RunCukesTest {
 }
