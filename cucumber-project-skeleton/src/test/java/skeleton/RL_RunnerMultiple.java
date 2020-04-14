@@ -9,8 +9,8 @@ import cucumber.api.java.en.When;
 
 public class RL_RunnerMultiple {
 	WebDriver d;
-	String exp;
-	String Act;
+//	String exp;
+//	String Act;
 
 	@Given("demoWebshop site is opened by the test User")
 	public void demowebshop_site_is_opened_by_the_test_User() {
