@@ -1,14 +1,15 @@
-Feature: Case Study Two
+
+Feature: Case Study two
 
 This is to test the login on TestMe app
 
 
-Scenario Outline: Alex can Login on TestMe
-Given TestMe is open by Alex
-When Alex gives valid "<username>" "<password>"
-Then Alex is able to see home page 
+Scenario Outline: Jenny can Login on TestMe
+Given Jenny goes to TestMe
+When Jenny gives valid "<username>" "<password>"
+Then Jenny is able to view the page
 
 
 Examples:
 |username|password|
-|AlexLee1|Password123|
+|JennyFrank|Password123|

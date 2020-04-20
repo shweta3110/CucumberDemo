@@ -1,8 +1,5 @@
-Feature: CaseStudy Search Engine
 
-In this CaseStudy we are going to test Search Engine in TestMeApp
-
-Scenario: Alex Can Check Search Engine of TestMeApp
-Given Alex is in homepage of testmeapp
-When Alex searches the required product on search bar
-Then Alex sees the required product page with option of add to cart
+Feature: Search engine test
+Scenario: Jenny Checks Search Engine of TestMeApp
+Given Jenny is in homepage of testmea
+Then Jenny sees the required product page with option of add to cart

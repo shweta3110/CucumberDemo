@@ -1,10 +1,10 @@
 
 Feature: Registration
 Scenario Outline: Jenny can register on TestMe
-Given Jenny opens TestMe app
-When Jenny enters the correct info "<uname>" "<fname>" "<lname>" "<pass>" "<cpass>" "<gender>" "<email>" "<mobile>" "<dob>" "<address>" "<squestion>" "<answer>"
-Then Jennyis registerd succesfully 
+Given Jenny opens the TestMe app url
+When Jenny fills the required fields"<uname>" "<fname>" "<lname>" "<pass>" "<cpass>" "<gender>" "<email>" "<mobile>" "<dob>" "<address>" "<squestion>" "<answer>"
+Then Jenny is a registered user
 
 Examples: 
 |uname|fname|lname|pass|cpass|gender|email|mobile|dob|address|squestion|answer| 
-|JennyLee1|Jenny|Lee|Password123|Password123|Female|jennylee@xyz.com|9876543210|01/01/1996|Pune|What is your Birth Place?|Pune|
+|JennyFrank2222|Jenny|Frank|Password123|Password123|Female|jennyf@xyz.com|0123456789|01/10/1996|abcdefgh,xyz|What is your Birth Place?|Kolhapur|
