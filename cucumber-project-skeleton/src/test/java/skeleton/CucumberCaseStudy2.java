@@ -41,7 +41,7 @@ public void jenny_gives_valid(String username, String password) throws Throwable
 public void jenny_is_able_to_view_the_page() {
 	    //Write code here that turns the phrase above into concrete actions
 	LoginName= d.findElement(By.cssSelector("ul.nav")).getText();
-		Assert.assertTrue(LoginName.contains("Jenny"));
+		Assert.assertTrue(LoginName.contains("Lalitha"));
 		System.out.println("Test is Passed");
 		
 	    

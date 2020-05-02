@@ -30,6 +30,8 @@ public void jenny_fills_the_required_fields(String uname, String fname, String l
 		d.findElement(By.linkText("SignUp")).click();
 		Thread.sleep(2000);
 		d.findElement(By.name("userName")).sendKeys(uname);
+		 String avail=d.findElement(By.id("err")).getText();
+		Assert.assertEquals(avail,"New");
 		d.findElement(By.name("firstName")).sendKeys(fname);
 		d.findElement(By.name("lastName")).sendKeys(lname);
 	d.findElement(By.name("password")).sendKeys(pass);
