@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16410" started-at="2020-05-11T05:53:46Z" finished-at="2020-05-11T05:54:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16410" started-at="2020-05-11T05:53:46Z" finished-at="2020-05-11T05:54:03Z">
+      <class name="Remote.HandsOnExam">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Remote.HandsOnExam@5e3a8624]" name="beforeMethod" is-config="true" duration-ms="6884" started-at="2020-05-11T05:53:46Z" finished-at="2020-05-11T05:53:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="privacypolicy()[pri:1, instance:Remote.HandsOnExam@5e3a8624]" name="privacypolicy" duration-ms="451" started-at="2020-05-11T05:53:53Z" finished-at="2020-05-11T05:53:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privacypolicy -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Remote.HandsOnExam@5e3a8624]" name="beforeMethod" is-config="true" duration-ms="6639" started-at="2020-05-11T05:53:54Z" finished-at="2020-05-11T05:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:2, instance:Remote.HandsOnExam@5e3a8624]" name="login" duration-ms="2401" started-at="2020-05-11T05:54:00Z" finished-at="2020-05-11T05:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Remote.HandsOnExam -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

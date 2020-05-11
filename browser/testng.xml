@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite03">
+	<listeners>
+		<listener
+			class-name="com.acn.selenium.extent.ListenerReport" />
+	</listeners>
+	<test thread-count="5" name="Test03">
+		<classes>
+			<class name="com.acn.selenium.extent.TestMeApp" />
+		</classes>
+	</test> <!-- Test03 -->
+</suite> <!-- Suite03 -->

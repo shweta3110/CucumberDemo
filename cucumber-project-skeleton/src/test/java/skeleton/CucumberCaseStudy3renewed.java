@@ -93,8 +93,14 @@ public class CucumberCaseStudy3renewed {
 		{
 			d.switchTo().window(handle);
 		}
-		String url=d.getCurrentUrl();
-		Assert.assertTrue(url.contains("chn"));
+		 d.switchTo().frame(d.findElement(By.name("main_page")));
+	      String add=d.findElement(By.cssSelector("div[class='contact-info']")).getText();
+	      String name="Chennai";
+	      Assert.assertTrue(add.contains(name));
+	    		  
+		//String url=d.getCurrentUrl();
+		//System.out.println(url);
+		//Assert.assertTrue(url.contains("chn"));
 
 		
 				
@@ -127,28 +133,6 @@ public class CucumberCaseStudy3renewed {
 		
 		  Thread.sleep(2000); 
 	}
-	@When("Jenny proceeds for payment without adding in the  cart")
-	public void jenny_proceeds_for_payment_without_adding_in_the_cart()  {
-		//menu=d.findElement(By.cssSelector("ul.nav")).getText();
-		//menu=d.findElement(By.xpath("/html/body/header/div[1]/div/div/div[2]/div")).getText();
-		//Assert.assertEquals(menu,("Hi, Lalitha     SignOut"));
-		//Assert.assertTrue(menu.contains(" Home   "));
-		//menu=d.findElement(By.cssSelector("div[class='shop-menu pull-right']")).getText();
-		//Assert.assertTrue(menu.contains(" Home    Hi, Lalitha      SignOut"));
-		//Assert.assertTrue(menu.contains(" Home    Hi, Lalitha        SignOut"));
-		//Assert.assertTrue(" Home    Hi, Lalitha        SignOut".contains(menu));
-		//name=" Home    Hi, Lalitha        SignOut";
-		
-		//Assert.assertTrue(menu.contains(name));
 	
-		System.out.println("Cart icon is not visible");
-		
-	}
-	@Then("Cart icon is not visible")
-	public void cart_icon_is_not_visible() {
-	    // Write code here that turns the phrase above into concrete actions
-		System.out.println("Cart icon is not visible");
-	
-	}
 
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite03]">
+  <listeners>
+    <listener class-name="com.acn.selenium.extent.ListenerReport"/>
+  </listeners>
+  <test thread-count="5" name="Test03(failed)">
+    <classes>
+      <class name="com.acn.selenium.extent.TestMeApp">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="testPayment"/>
+        </methods>
+      </class> <!-- com.acn.selenium.extent.TestMeApp -->
+    </classes>
+  </test> <!-- Test03(failed) -->
+</suite> <!-- Failed suite [Suite03] -->

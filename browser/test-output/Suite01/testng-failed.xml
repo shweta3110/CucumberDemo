@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite01]">
+  <test thread-count="5" name="TestGroup2(failed)">
+    <classes>
+      <class name="Remote.FirstTestNGDemo">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="twitter"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="Instagram"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Remote.FirstTestNGDemo -->
+      <class name="Remote.RL_DemoDataProvider">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Remote.RL_DemoDataProvider -->
+    </classes>
+  </test> <!-- TestGroup2(failed) -->
+</suite> <!-- Failed suite [Suite01] -->
